@@ -1,6 +1,10 @@
 {
   "name": "lawwakeel_services",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.x"
+  },
   "description": "this is main package for lawwakeel services page",
   "main": "app.js",
   "scripts": {
