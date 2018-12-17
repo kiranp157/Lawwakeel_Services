@@ -9,6 +9,4 @@ app.get('/',function(req,res){
     res.send("Welcome to Lawwakeel Services");
 });
 
-app.listen(3000,function(){
-    console.log("-->Running on your Localhost on port 3000");
-})
+app.listen(process.env.PORT || 3000);
